@@ -1,0 +1,15 @@
+/* Service.css */
+
+.tilt-effect {
+    perspective: 1000px;
+    transition: transform 0.3s ease;
+  }
+  
+  .tilt-effect:hover {
+    transform: rotateY(10deg);
+  }
+  
+  .tilt-effect:active {
+    transform: rotateY(-10deg);
+  }
+  
