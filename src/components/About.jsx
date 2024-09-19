@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
+import Team from "./Team";
+import AboutFirst from "./AboutFirst";
 
 const About = () => {
   return (
-    <div className="container mx-auto p-4">
-      <h2 className="text-2xl font-bold">About</h2>
-      <p>This is the About section.</p>
+    <div id="about" className="container mx-auto p-4 bg-gray-50 ">
+      <AboutFirst />
+      <Team />
     </div>
   );
 };
